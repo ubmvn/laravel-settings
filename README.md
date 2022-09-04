@@ -281,8 +281,8 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 ## Credits
 
-- [UBM.vn](https://github.com/iamohd)
-- [Mohammed Isa](https://github.com/iamohd)
+- [UBM.vn](https://github.com/ubmvn)
+- [Mohammed Isa](https://github.com/itsmohd)
 - [All Contributors](../../contributors)
 
 ## Alternatives
