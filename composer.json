@@ -1,0 +1,59 @@
+{
+    "name": "ubmvn/laravel-settings",
+    "description": "Laravel Application & Models Settings",
+    "keywords": [
+        "laravel-settings"
+    ],
+    "homepage": "https://github.com/ubmvn/laravel-settings",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Ubm.vn",
+            "email": "contact@ubm.vn"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-json": "*",
+        "illuminate/database": "^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.4",
+        "orchestra/testbench": "^5.0|^6.0",
+        "phpunit/phpunit": "^9.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ubmvn\\Settings\\": "src"
+        },
+        "files": [
+            "src/Support/settings.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ubmvn\\Settings\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ubmvn\\Settings\\SettingsServiceProvider"
+            ],
+            "aliases": {
+                "Settings": "Ubmvn\\Settings\\Facades\\Settings"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
