@@ -14,7 +14,7 @@ This package fork from https://github.com/iamohd/laravel-settings for Laravel 8.
 Install the package via composer:
 
 ```bash
-composer require smartisan/laravel-settings
+composer require ubmvn/laravel-settings
 ```
 
 Publish the config file with:
